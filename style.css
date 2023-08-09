@@ -1,0 +1,95 @@
+.logo{
+    border-radius: 50%;
+    width: 15%;
+}
+.logo:hover{
+    border-radius: 46%;
+
+}
+nav ul li{
+    text-align: right;
+    display: inline;
+    margin: 1%;
+
+}
+nav{
+    text-align: center;
+    
+}
+header{
+    grid-area: cabe;;
+    border: solid red 2px;
+}
+main{
+    grid-area: prin;
+    border: solid blue 2px;
+
+}
+aside{
+    grid-area: brac;
+    border: solid green 2px;
+}
+footer{
+    grid-area: roda;
+    border: solid pink 2px;
+}
+body{
+    display: grid;
+    grid-template-areas: 
+    "cabe cabe cabe"
+    "brac prin prin"
+    "roda roda roda";
+    grid-template-columns: 20%;
+    grid-template-rows: auto;
+
+}
+.card img{
+    width: 80%;
+}
+.caixa_mae{
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+
+}
+.card{
+    border: solid #846F5E 2px;
+    width: 300px;
+    height: 550px;
+    margin: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #D8D4C9;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 3px 6px 9px black;
+    
+
+    
+
+}
+.card a{
+    display: block;
+    width: auto;
+    height: auto;
+    background-color: #846F5E;
+    text-align: center;
+    border-radius: 20px;
+    text-decoration: none;
+    color:white;
+    text-align: center;
+    padding: 5px;
+    
+}
+.carrinho{
+    border-radius: 10px;
+    width: 3%;
+}
+.cadastro{
+    border-radius: 10px;
+    width: 3%;
+}
+
